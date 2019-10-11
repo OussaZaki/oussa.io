@@ -1,11 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Oussama Zaki's Personal Webpage`,
+    author: `Oussama Zaki`,
+    description: `Personal Webpage & Blog.`,
+    siteUrl: `https:/oussa.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `oussazaki`,
+      github: `oussazaki`,
+      linkedin: `zakioussama`,
+      instagram: `theZaki`,
+      medium: `theZaki`
     },
   },
   plugins: [
@@ -50,20 +54,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-61980497-2`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Serialized Thoughts.`,
+        short_name: `Thoughts`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#ffd800`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon.png`,
       },
     },
     `gatsby-plugin-offline`,
