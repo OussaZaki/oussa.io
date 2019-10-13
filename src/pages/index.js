@@ -1,115 +1,75 @@
 import React from "react"
 import { graphql } from "gatsby"
-import {
-  FaGithubAlt,
-  FaLinkedinIn,
-  FaTwitter,
-  FaInstagram,
-  FaMediumM,
-} from "react-icons/fa"
 
 import SEO from "../components/seo"
+import SocialList from "../containers/social-list"
+
 import "./profile.css"
 
 class ProfilePage extends React.Component {
   render() {
     return (
-      <div class="profile-container">
+      <div className="profile-container">
         <SEO title="Oussama Zaki · Writes beautiful code" />
         <section id="s1">
-          <div class="container">
-            <h1 class="center">Oussama Zaki.</h1>
-            <h2 class="center">Simple human, writes beautiful code.</h2>
+          <div className="container">
+            <h1 className="center">Oussama Zaki.</h1>
+            <h2 className="center">Simple human, writes* beautiful code.</h2>
           </div>
         </section>
 
         <section id="s2">
-          <div class="container">
+          <div className="container">
             <p>
-              Listen folks, I solve problems! spare me the Language, Framework
-              and paradigm... Tho you can't beat me in Javascript.
+              Listen folks, I solve problems! Spare me the language, framework
+              and paradigm debate... Javascript is the best tho.
             </p>
             <p>
-              Currently enjoying building a <strong>smoooth</strong> shopping
-              experience at Klarna.
+              Currently enjoying building <strong>smoooth</strong> shopping
+              experiences at Klarna.
             </p>
             <p>
               Here's what I believe in when building a product or solving a
-              problem.
+              problem:
             </p>
             <p>
-              <span class="li">
+              <span className="li">
                 {" "}
                 - <strong>User experience</strong> first.
               </span>
-              <span class="li">
+              <span className="li">
                 {" "}
                 - Move <strong>fast</strong> and break things.
               </span>
-              <span class="li">
+              <span className="li">
                 {" "}
                 - <strong>Test</strong> smart not hard.
               </span>
-              <span class="li">
+              <span className="li">
                 {" "}
                 - Poor <strong>performance</strong> is a bug.
               </span>
             </p>
+            <p>* Tries to write</p>
           </div>
         </section>
         <section id="s3">
-          <div class="container">
-            <div class="center small">
-              <span class="name">Oussama Zaki</span>
+          <div className="container">
+            <div className="center small">
+              <span className="name">Oussama Zaki</span>
               <br />
-              <span class="title">Stockholm, Sweden</span>
+              <span className="title">Stockholm, Sweden</span>
             </div>
-            <div class="center small contact">
+            <div className="center small contact">
               <a title="Call me" href="tel:+46761805575">
-                +46 76 180 55 75
+                +46 72 855 81 65
               </a>
               <br />
               <a title="Email me" href="mailto:zaki.oussama@gmail.com">
                 zaki.oussama@gmail.com
               </a>
             </div>
-            <div class="center nounderline links">
-              <a
-                title="let's code together"
-                href="https://github.com/OussaZaki"
-                rel="noopener"
-              >
-                <FaGithubAlt class="social-icon" />
-              </a>
-              <a
-                title="Find me on LinkedIn"
-                href="https://www.linkedin.com/in/zakioussama/"
-                rel="noopener"
-              >
-                <FaLinkedinIn class="social-icon" />
-              </a>
-              <a
-                title="Follow me on Twitter"
-                href="https://twitter.com/OussaZaki"
-                rel="noopener"
-              >
-                <FaTwitter class="social-icon" />
-              </a>
-              <a
-                title="check me on Instagram"
-                href="https://instagram.com/theZaki/"
-                rel="noopener"
-              >
-                <FaInstagram class="social-icon" />
-              </a>
-              <a
-                title="read my stories on Mediun"
-                href="https://medium.com/@thezaki"
-                rel="noopener"
-              >
-                <FaMediumM class="social-icon" />
-              </a>
-            </div>
+            <SocialList />
           </div>
         </section>
       </div>
