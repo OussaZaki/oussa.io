@@ -4,13 +4,6 @@ module.exports = {
     author: `Oussama Zaki`,
     description: `Personal Webpage & Blog.`,
     siteUrl: `https:/oussa.io/`,
-    social: {
-      twitter: `oussazaki`,
-      github: `oussazaki`,
-      linkedin: `zakioussama`,
-      instagram: `theZaki`,
-      medium: `theZaki`
-    },
   },
   plugins: [
     {
