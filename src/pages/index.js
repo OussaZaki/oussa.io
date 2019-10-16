@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import SocialList from "../containers/social-list"
 
-import "./profile.css"
+import "./index.css"
 
 class ProfilePage extends React.Component {
   render() {
