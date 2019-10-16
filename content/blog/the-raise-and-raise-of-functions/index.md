@@ -1,6 +1,6 @@
 ---
 title: The raise and raise of Functions.
-date: "2019-10-15T22:54:0Z"
+date: "2019-10-15T22:40:32.169Z"
 description: Demistifying the concept of functions.
 ---
 
