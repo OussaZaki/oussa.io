@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "./layout.css";
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -10,44 +12,21 @@ class Layout extends React.Component {
     if (location.pathname === rootPath) {
       header = (
         <h1>
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
+          <Link to={`/`}>{title}</Link>
         </h1>
       )
     } else {
       header = (
         <h3>
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
+          <Link to={`/`}>{title}</Link>
         </h3>
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>
+      <div class="layout">
+        <header class="container">{header}</header>
+        <main class="container">{children}</main>
+        <footer class="container">
           © {new Date().getFullYear()}, Nothing to see here.
         </footer>
       </div>
