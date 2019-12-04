@@ -18,11 +18,15 @@ html {
 }
 
 body {
-  font-family: "KlarnaSans", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 1rem;
   line-height: 1.5;
-  background-color: #fff;
-  color: #222;
+  background-color: #070707;
+  color: white;
   cursor: default;
 }
 
@@ -38,7 +42,6 @@ h2 {
 }
 
 p {
-  font-weight: 400;
   font-size: 1.25rem;
   margin: 2rem 0;
   text-align: justify;
@@ -47,8 +50,17 @@ p {
   text-align-last: left;
 }
 
+strike {
+  color: #999;
+}
+
+.yellow {
+  color: #FFC60A;
+}
+
 a {
-  color: #2d71b0;
+  /* color: #09d3ac; */
+  color: #FFC60A;
   cursor: pointer;
   text-decoration: none;
 }
@@ -144,16 +156,4 @@ span.title {
   html {
     font-size: 80%;
   }
-}
-
-@font-face {
-  font-family: "KlarnaSans";
-  font-style: normal;
-  src: url("../../static/fonts/KlarnaSans-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "KlarnaHeadline";
-  font-style: normal;
-  src: url("../../static/fonts/KlarnaHeadline-Bold.woff") format("woff");
 }

@@ -14,19 +14,23 @@ class ProfilePage extends React.Component {
         <section id="s1">
           <div className="container">
             <h1 className="center">Oussama Zaki.</h1>
-            <h2 className="center">Simple human, writes* beautiful code.</h2>
+            <h2 className="center">Director of Engineering. Tech advisor.</h2>
           </div>
         </section>
 
         <section id="s2">
           <div className="container">
             <p>
-              Listen folks, I solve problems! Spare me the language, framework
-              and paradigm debate... Javascript is the best tho.
+              My meaning of life can be summarised in one thing, <span className="yellow">Impact</span>. And I believe Technology can help me provide positive impact.
             </p>
             <p>
-              Currently enjoying building <strong>smoooth</strong> shopping
-              experiences at Klarna.
+              <strike>
+                Currently enjoying building smoooth shopping experiences at
+                Klarna.
+              </strike>
+            </p>
+            <p>
+              On a mission to build the next generation of Green Energy Technologies, as a Director of Engineering at <strong>Svea Solar</strong>.
             </p>
             <p>
               Here's what I believe in when building a product or solving a
@@ -50,7 +54,6 @@ class ProfilePage extends React.Component {
                 - Poor <strong>performance</strong> is a bug.
               </span>
             </p>
-            <p>* Tries to write</p>
           </div>
         </section>
         <section id="s3">
@@ -65,8 +68,8 @@ class ProfilePage extends React.Component {
                 +46 72 855 81 65
               </a>
               <br />
-              <a title="Email me" href="mailto:zaki.oussama@gmail.com">
-                zaki.oussama@gmail.com
+              <a title="Email me" href="mailto:me@oussa.dev">
+                me@oussa.dev
               </a>
             </div>
             <SocialList />
