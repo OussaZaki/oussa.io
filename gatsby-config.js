@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Oussama Zaki's Personal Webpage`,
+    title: `Oussama Zaki - Tech Enthusiast`,
     author: `Oussama Zaki`,
-    description: `Personal Webpage & Blog.`,
-    siteUrl: `https:/oussa.io/`,
+    description: `Oussama Zaki Personal Webpage & Blog.`,
+    siteUrl: `https:/oussa.dev`,
   },
   plugins: [
     {

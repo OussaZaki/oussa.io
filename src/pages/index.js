@@ -10,11 +10,11 @@ class ProfilePage extends React.Component {
   render() {
     return (
       <div className="profile-container">
-        <SEO title="Oussama Zaki · Writes beautiful code" />
+        <SEO title="Oussama Zaki · Tech Enthusiast" />
         <section id="s1">
           <div className="container">
             <h1 className="center">Oussama Zaki.</h1>
-            <h2 className="center">Director of Engineering. Tech advisor.</h2>
+            <h2 className="center yellow">Tech Enthusiast.</h2>
           </div>
         </section>
 
