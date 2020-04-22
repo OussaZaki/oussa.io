@@ -10,49 +10,34 @@ class ProfilePage extends React.Component {
   render() {
     return (
       <div className="profile-container">
-        <SEO title="Oussama Zaki · Tech Enthusiast" />
+        <SEO title="Oussama Zaki · Technology Leader" />
         <section id="s1">
           <div className="container">
             <h1 className="center">Oussama Zaki.</h1>
-            <h2 className="center yellow">Tech Enthusiast.</h2>
+            <h2 className="center yellow">Technology Leader.</h2>
           </div>
         </section>
 
         <section id="s2">
           <div className="container">
             <p>
-              My meaning of life can be summarised in one thing, <span className="yellow">Impact</span>. And I believe Technology can help me provide positive impact.
+              I find meaning in life through impact, the ensemble of values I
+              bring to my environment and my surrounding. By that definition, my
+              goal in life can be summarized into two words,{" "}
+              <span className="yellow">Positive Impact.</span> And I strongly
+              believe that technology can help me get closer to that goal.
             </p>
             <p>
-              <strike>
-                Currently enjoying building smoooth shopping experiences at
-                Klarna.
-              </strike>
+              Currently, on a mission to build the next generation of
+              Sustainable Energy Tech, as a Director of Engineering at{" "}
+              <a href="https://sveasolar.com/">
+                <strong>Svea Solar</strong>
+              </a>
+              .
             </p>
             <p>
-              On a mission to build the next generation of Green Energy Technologies, as a Director of Engineering at <strong>Svea Solar</strong>.
-            </p>
-            <p>
-              Here's what I believe in when building a product or solving a
-              problem:
-            </p>
-            <p>
-              <span className="li">
-                {" "}
-                - <strong>User experience</strong> first.
-              </span>
-              <span className="li">
-                {" "}
-                - Move <strong>fast</strong> and break things.
-              </span>
-              <span className="li">
-                {" "}
-                - <strong>Test</strong> smart not hard.
-              </span>
-              <span className="li">
-                {" "}
-                - Poor <strong>performance</strong> is a bug.
-              </span>
+              Before that, I enjoyed building smoooth payment experiences at
+              Klarna, as a Product Engineer.
             </p>
           </div>
         </section>
