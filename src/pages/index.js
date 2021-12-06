@@ -24,20 +24,8 @@ class ProfilePage extends React.Component {
               I find meaning in life through impact, the ensemble of values I
               bring to my environment and my surrounding. By that definition, my
               goal in life can be summarized into two words,{" "}
-              <span className="yellow">Positive Impact.</span> And I strongly
+              <span className="yellow">Positive Impact.</span> & I strongly
               believe that technology can help me get closer to that goal.
-            </p>
-            <p>
-              Currently, on a mission to build the next generation of
-              Sustainable Energy Tech, as a Director of Engineering at{" "}
-              <a href="https://sveasolar.com/">
-                <strong>Svea Solar</strong>
-              </a>
-              .
-            </p>
-            <p>
-              Before that, I enjoyed building smoooth payment experiences at
-              Klarna, as a Product Engineer.
             </p>
           </div>
         </section>
@@ -50,7 +38,7 @@ class ProfilePage extends React.Component {
             </div>
             <div className="center small contact">
               <a title="Call me" href="tel:+46761805575">
-                +46 72 855 81 65
+                +46 73 842 97 78
               </a>
               <br />
               <a title="Email me" href="mailto:me@oussa.dev">
