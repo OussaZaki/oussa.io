@@ -32,13 +32,13 @@ body {
 
 h1 {
   font-family: "KlarnaHeadline", sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   letter-spacing: -0.0125em;
 }
 
 h2 {
-  font-weight: 500;
-  font-size: 1.5rem;
+  font-weight: 300;
+  font-size: 2rem;
 }
 
 p {
