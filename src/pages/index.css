@@ -41,8 +41,17 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 1.75;
+}
+
 p {
-  font-size: 1.25rem;
   margin: 2rem 0;
   text-align: justify;
   -moz-text-align-last: left;
@@ -55,12 +64,11 @@ strike {
 }
 
 .yellow {
-  color: #FFC60A;
+  color: #FFDD33;
 }
 
 a {
-  /* color: #09d3ac; */
-  color: #FFC60A;
+  color: #FFDD33;
   cursor: pointer;
   text-decoration: none;
 }
@@ -142,7 +150,7 @@ span.title {
 
 @media (min-width: 1024px) {
   html {
-    font-size: 125%;
+    font-size: 100%;
   }
 }
 

@@ -1,6 +1,5 @@
 module.exports = {
   siteMetadata: {
-    title: `Oussama Zaki - Tech Enthusiast`,
     author: `Oussama Zaki`,
     description: `Oussama Zaki Personal Webpage & Blog.`,
     siteUrl: `https:/oussa.dev`,
