@@ -25,12 +25,16 @@ export default function Footer() {
       <p className="text-neutral-600 dark:text-neutral-300">
         Stockholm, Sweden
       </p>
-      <a title="Call me" href="tel:+46738429778">
-        +46 73 842 97 78
-      </a>
-      <a title="Email me" href="mailto:me@oussa.dev">
-        me@oussa.dev
-      </a>
+      <p className="mt-2 text-neutral-600 dark:text-neutral-300">
+        <a title="Call me" href="tel:+46738429778">
+          +46 73 842 97 78
+        </a>
+      </p>
+      <p className="text-neutral-600 dark:text-neutral-300">
+        <a title="Email me" href="mailto:me@oussa.dev">
+          me@oussa.dev
+        </a>
+      </p>
       <ul className="mt-4 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
         <li>
           <a
