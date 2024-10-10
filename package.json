@@ -1,61 +1,27 @@
 {
-  "name": "oussa.io",
   "private": true,
-  "description": "My personal blog based on a Gastby starter",
-  "version": "0.1.0",
-  "author": "Oussama Zaki <zaki.oussama@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "gatsby": "^2.13.62",
-    "gatsby-image": "^2.2.8",
-    "gatsby-plugin-feed": "^2.3.6",
-    "gatsby-plugin-google-analytics": "^2.1.7",
-    "gatsby-plugin-manifest": "^2.2.5",
-    "gatsby-plugin-offline": "^2.2.6",
-    "gatsby-plugin-react-helmet": "^3.1.3",
-    "gatsby-plugin-sharp": "^2.2.11",
-    "gatsby-remark-copy-linked-files": "^2.1.5",
-    "gatsby-remark-images": "^3.1.11",
-    "gatsby-remark-prismjs": "^3.3.5",
-    "gatsby-remark-responsive-iframe": "^2.2.4",
-    "gatsby-remark-smartypants": "^2.1.2",
-    "gatsby-source-filesystem": "^2.1.9",
-    "gatsby-transformer-remark": "^2.6.14",
-    "gatsby-transformer-sharp": "^2.2.6",
-    "prismjs": "^1.17.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1",
-    "react-icons": "^3.7.0",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75"
-  },
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby",
-    "blog",
-    "oussa"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "scripts": {
-    "build": "NODE_OPTIONS=--openssl-legacy-provider && gatsby build",
-    "develop": "NODE_OPTIONS=--openssl-legacy-provider && gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider && npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "@next/third-parties": "^14.2.15",
+    "@tailwindcss/postcss": "4.0.0-alpha.13",
+    "@types/node": "20.11.17",
+    "@types/react": "18.2.55",
+    "@types/react-dom": "18.2.19",
+    "@vercel/analytics": "^1.1.3",
+    "@vercel/speed-insights": "^1.0.9",
+    "clsx": "^2.1.1",
+    "geist": "1.2.2",
+    "next": "^14.2.15",
+    "next-mdx-remote": "^4.4.1",
+    "postcss": "^8.4.35",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sugar-high": "^0.6.0",
+    "tailwindcss": "4.0.0-alpha.13",
+    "typescript": "5.3.3"
   }
 }
