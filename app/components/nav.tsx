@@ -7,9 +7,6 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
-  'https://me.oussa.dev/': {
-    name: 'notion',
-  },
 }
 
 export function Navbar() {

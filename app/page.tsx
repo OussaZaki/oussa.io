@@ -9,13 +9,13 @@ export default function Page() {
         Art & Engineering
       </h3>
       <p className="mb-2">
-        {`Oussama Zaki — or “Oussa” for short — is a Moroccan-born millennial who has traveled the world, merging his passions for culture, art, and technology. Now based in Stockholm, he brings a global perspective to the tech industry. His career is shaped by diverse experiences at major companies like Google, Klarna, Svea Solar, and Spotify.`}
+        {`Born in Casablanca, based in Stockholm, shaped by the cities in between. Before Miro, I spent time at Google, Klarna, Svea Solar, and Spotify. Different bets, different cultures, one mission: building things people actually love to use, and teams who enjoy building them.`}
       </p>
       <p className="mb-2">
-        {`With a foundation in Computer Science, Oussa’s career trajectory is a unique blend of art and engineering. His journey began with Combinatorial Optimization Algorithms and Heuristics, but soon expanded into the innovative field of human-computer interaction. Here, he discovered a new passion: merging the art of Design & UX with engineering excellence.`}
+        {`Grew up loving math and geometry. Found comfort in art and design at the same time. Didn't yet know I was supposed to pick a side. Got curious about code early, spending teenage hours writing C on the family Pentium PC. I came up through computer science from there, drawn to combinatorial optimization and modern heuristics. But it was in human-computer interaction where it finally clicked: engineering and design aren't separate disciplines. They're one craft.`}
       </p>
       <p className="mb-4">
-        {`Today, Oussa leads the Iteration Platform team at Miro. In this role, he aims to foster a culture of experimentation and continuous iteration, empowering teams to unleash their full creative potential in building the future of the visual workspace.`}
+        {`Today, I'm a senior engineering leader and designer at Miro. My mission is to elevate developer productivity, reliability, and joy across our software delivery lifecycle. Right now, three things have my full attention: experimentation, AI-assisted engineering, and developer tools.`}
       </p>
       <div className="my-8">
         <BlogPosts />
