@@ -15,10 +15,12 @@ export const metadata: Metadata = {
     default: 'Oussa. Art & Engineering',
     template: '%s | Oussa. Art & Engineering',
   },
-  description: 'Personal Webpage & Blog.',
+  description:
+    'Oussa Zaki, engineering leader working on developer experience, experimentation, and AI-assisted engineering. Based in Stockholm.',
   openGraph: {
     title: 'Oussa. Art & Engineering',
-    description: 'Personal Webpage & Blog.',
+    description:
+      'Oussa Zaki, engineering leader working on developer experience, experimentation, and AI-assisted engineering. Based in Stockholm.',
     url: baseUrl,
     siteName: 'Oussa.',
     locale: 'en_US',

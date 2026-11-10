@@ -20,7 +20,7 @@ export default function Footer() {
     <footer className="text-xs mb-16">
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">With love,</p>
       <p className="mt-2 text-neutral-600 dark:text-neutral-300">
-        <strong>Oussama Zaki</strong>
+        <strong>Oussa Zaki</strong>
       </p>
       <p className="text-neutral-600 dark:text-neutral-300">
         Stockholm, Sweden
@@ -31,8 +31,8 @@ export default function Footer() {
         </a>
       </p>
       <p className="text-neutral-600 dark:text-neutral-300">
-        <a title="Email me" href="mailto:me@oussa.dev">
-          me@oussa.dev
+        <a title="Email me" href="mailto:zaki.oussama@gmail.com">
+          zaki.oussama@gmail.com
         </a>
       </p>
       <ul className="mt-4 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
